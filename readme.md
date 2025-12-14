@@ -36,11 +36,11 @@ logic, environment dynamics, knowledge representation, visualization, and orches
 
 WumpusWorldProject/
 │
-├── README.md                         # Main project documentation (GitHub)
-├── requirements.txt                  # Project dependencies
-├── main.py                           # Entry point to run the simulation
+├── README.md                  # Main project documentation (GitHub)
+├── requirements.txt           # Project dependencies
+├── main.py                    # Entry point to run the simulation
 │
-├── assets/                           # Static assets (images)
+├── assets/                    # Static assets (images)
 │   ├── agent.png
 │   ├── wumpus.png
 │   ├── gold.png
@@ -48,13 +48,13 @@ WumpusWorldProject/
 │   ├── breeze.png
 │   └── stench.png
 │
-└── src/                              # Source code (Python package)
-    ├── __init__.py                  # Marks src as a Python package (empty)
-    ├── agent.py                     # Agent decision-making logic
-    ├── environment.py               # Wumpus World environment & percepts
-    ├── knowledge_base.py            # Knowledge Base & logical reasoning
-    ├── renderer.py                  # Pygame visualization
-    └── utils.py                     # Helper functions (neighbors, etc.)
+└── src/                       # Source code (Python package)
+    ├── __init__.py            # Marks src as a Python package (empty)
+    ├── agent.py               # Agent decision-making logic
+    ├── environment.py         # Wumpus World environment & percepts
+    ├── knowledge_base.py      # Knowledge Base & logical reasoning
+    ├── renderer.py            # Pygame visualization
+    └── utils.py               # Helper functions
 
 ## Installation and Setup
 Follow the steps below to set up and run the project:
