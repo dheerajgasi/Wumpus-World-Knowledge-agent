@@ -30,10 +30,11 @@ The agent perceives local sensory inputs, updates a knowledge base with logical 
 
 
 ## Project Architecture
-The project follows an agent–environment architecture with clear separation of concerns: agent
-logic, environment dynamics, knowledge representation, visualization, and orchestration.
 
+The project follows an agent–environment architecture with clear separation of concerns:
+agent logic, environment dynamics, knowledge representation, visualization, and orchestration.
 
+```text
 WumpusWorldProject/
 │
 ├── README.md                  # Main project documentation (GitHub)
@@ -49,13 +50,13 @@ WumpusWorldProject/
 │   └── stench.png
 │
 └── src/                       # Source code (Python package)
-    ├── __init__.py            # Marks src as a Python package (empty)
+    ├── __init__.py            # Marks src as a Python package
     ├── agent.py               # Agent decision-making logic
     ├── environment.py         # Wumpus World environment & percepts
     ├── knowledge_base.py      # Knowledge Base & logical reasoning
     ├── renderer.py            # Pygame visualization
     └── utils.py               # Helper functions
-
+```
 ## Installation and Setup
 Follow the steps below to set up and run the project:
 
